@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="IMG/candado.png">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Encriptador</title>
+</head>
+<body>
+	<header>
+		<img src="IMG/Logo.png" alt="Logo encriptador" class="Logo">
+	</header>
+
+	<main>
+
+	<section class="Dentro">
+
+		<section>
+				<textarea type="text" placeholder= "Ingrese el texto aqui" class="Textoingresar" Required autofocus></textarea>
+
+			<div>
+				<img src="IMG/Vector.png" alt="Signoadmiracion" class="Signo">
+				<p class="Informacion">Solo letras minusculas y mayusculas</p>
+			</div>
+
+				<input type="submit" class="Encriptar" value="Encriptar" onclick="btnEncriptar()">
+				<input type="submit" class="Desencriptar" value="Desencriptar" onclick="btnDesencriptar()"> 
+			
+		</section>
+
+		<section class="Fondoblanco">
+
+			<img src="IMG/Muñeco.png" alt="niño" class="Imagenniño" id="Imagenniño">
+
+			<textarea type="text" Placeholder = "Ingrese el texto que desea encriptar o desencriptar" id= "Mensaje" class = "Mensaje"></textarea>
+
+			<button class="Copiar" id="Copiar" onclick="btnCopiar()">Copiar</button>
+			
+		</section>
+
+	</section>
+
+	</main>
+
+	<footer>
+		<p>Denis Abraham Lovos Benavidez</p>
+	</footer>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>	
+</html>

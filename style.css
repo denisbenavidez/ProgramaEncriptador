@@ -1,0 +1,143 @@
+body{
+	background: url("IMG/fondo.jpg");
+}
+
+.Dentro{
+  	background-color: #F3F5FC;
+  	margin: 80px;
+  	width: 1760px;
+  	height: 810px;
+  	border-radius: 0.5%;
+  }
+
+.Logo{
+	position: absolute;
+	top: 90px;
+	left: 50px;
+}
+
+.Textoingresar{
+	position: absolute;
+	width: 580px;
+	left: 260px;
+	top: 218px;
+	font-family: 'Inter';
+	font-size: 32px;
+	line-height: 150%;
+	background:#F3F5FC;
+	border: none;
+	color: #0A3871;
+}
+
+.Signo{
+	position: absolute;
+	left: 12.5%;
+	top: 70%;
+}
+
+.Informacion{	
+	height: 30px;
+	font-family: 'Inter';
+	font-size: 18px;
+	color: #495057;
+	opacity: 0.8;
+	position: absolute;
+	left: 13.5%;
+	top: 70%;
+}
+
+.Encriptar{
+	position: absolute;
+	left: 12.5%;
+	top: 76%;
+	padding: 24px;
+	width: 310px;
+	height: 67px;
+	background: #0A3871;
+	border-radius: 24px;
+	color: #D8DFE8;
+	font-family: 'Inter';
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.Encriptar:hover{
+	transition: background 0.5s;
+	background: blue;
+}
+
+.Desencriptar{
+	position: absolute;
+	left: 30%;
+	top: 76%;
+	flex-direction: row;
+	padding: 24px;
+	width: 310px;
+	height: 67px;
+	background: #D8DFE8;
+	border-radius: 24px;
+	color: #0A3871;
+	font-family: 'Inter';
+	font-size: 16px;
+	line-height: 19px;
+	border-color: #0A3871;
+}
+
+.Desencriptar:hover {
+	transition: 0.5s;
+	background: white;
+}
+
+
+.Fondoblanco{
+	background: white;
+	top: 80px;
+	width: 350px;
+	height: 810px;
+	position: absolute;
+	left: 1200px;
+	border-radius: 2%;
+}
+
+.Imagenniño{
+	position: absolute;
+	top: 130px;
+}
+
+.Mensaje{
+	position: absolute;
+	width: 344px;
+	height: 48px;
+	top: 470px;
+	left: 0px;
+	font-family: 'Inter';
+	font-size: 16px;
+	text-align: center;
+	color: #495057;
+	border-style: none;
+}
+
+.Copiar{
+	position: relative;
+	top: 530px;
+	left: 20px;
+	background: #0AA0F5;
+	width: 310px;
+	height: 67px;
+	border-radius: 24px;
+	color: #495057;
+	font-family: 'Inter';
+	font-size: 16px;
+	border-color: #495057;
+}
+
+.Copiar:hover{
+	background: #1599E4;
+	transition: 0.5s;
+}
+
+footer{
+	position: fixed;
+	left: 850px;
+	bottom: 10px;
+}
